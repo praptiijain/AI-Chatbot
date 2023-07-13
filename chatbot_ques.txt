@@ -1,0 +1,33 @@
+{"tag": "special departments", 
+        "patterns":["Official clubs", "student departments", "Ecell", "What are some of the special departments for the students in the college?","What are some of the special departments?","Committees", "Special cells in the college"],
+        "responses": ["LDCE has a large number of special departments for its students, which include, SSIP, Women Development Cell,Training and placement cell, Anti ragging committie, Aarambh E-cell and a lot more.\n For more information visit the departments sections on the website." ],
+        "context": ["special deparmtents"]
+        },
+
+
+
+
+{"tag": "Entrepreneurship", 
+        "patterns":["What facilities does the college has to support entrepreneurship?","How can I start-up?","Will the college support me if I have an idea for a start-up?","SSIP","Entrepreneurship cell","Ecell","IPR support","Support for innnovation","Whom can i contact if I have an Startup idea, for support"],
+        "responses": ["LDCE has various policies to encourage entrepreneurship and start-up culture in the college.\n We have over 150 start-ups currently operating which have been funded by various student support policies"\n For more information you can reach out to the SSIP faculty or student coordinator.\n"],
+        "context": ["Entrepreneurship"]
+        },
+
+
+
+
+{"tag": "Women development", 
+        "patterns":["Women development policy","Women development cell","Women empowerment cell","Female students assistance cell","Women cell","What is the women development policy?","What is the women development cell in the college","Is there any special cell for women development","Any club that focuses on women empowerment and related issues"],
+        "responses": ["LDCE has a dedicated Women Development cell in the college which is active in conducting various workshops, seminars and other events around the year"\n "Each department has student coordinators representing the cell.\n You can reach out the Women Development cell office for more information."],
+        "context": ["Women development cell"]
+        },
+
+
+
+
+
+{"tag": "Hostel", 
+        "patterns":["Hostels in LDCE","Hostel information","How many hostels are there in LDCE","On-campus accomodation for students","Hostel facilities for girls","About hostels","How can I get a room in the LD hostel","Are there any hostels in LD?","How are the hostels in the college","Is there any facility to live, on campus"],
+        "responses": ["LDCE has hostel facilities for both girls and boys on campus.\n Rooms are allocated on the basis of merit list for which there is a seperate application process.\n You can go through the information on the 'hostels' tab on the website for further information.\n],
+        "context": ["Hostel"]
+        },

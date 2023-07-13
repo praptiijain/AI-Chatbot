@@ -1,0 +1,144 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hi there!, How can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["Hope you found you answer...", "Have a nice day ahead!", "Bye!"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Got it!"],
+         "responses": ["Happy to help!", "Anytime!", "My pleasure!"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "Try using accurate words of your question"],
+         "context": [""]
+        },
+        {"tag": "pg",
+        "patterns":["PG near LD", "P.G. near college", "PG", "Where can I find PG near college?", "Accomodation near college", "Is there any PG near college?", "Off-campus accommodation", "PG facilities near college"],
+        "responses": ["There are many PGs near college providing accomodation following COVID-19 rules. There are also off-campus hostels for both Boys and Girls located in University Area like Samras Hostel etc.\n\nSome of the PGs are providing meal packages as well as tiffin services.\nAll the necessary requirements of the students are being taken care within reasonable amount."],
+        "context":["search_by_pg"]
+        },
+        {"tag": "mess",
+        "patterns":["Food facilities in LDCE", "food facilities", "Mess", "Mess in college", "Mess information", "Mess food", "Is there mess in college?", "How is food in mess?", "tiffin services near LD", "Mess charges", "Mess cost", "What are are the charges of Mess?"],
+        "responses":["For food services there is a Mess available in college./nFood quality and Hygiene is maintained considering COVID-19 protocols. Cost for the Mess is also affordable which is around 50-60 Rs. Per meal. \n\nCanteen is also available in college. It has a wide variety of dishes and also has fixed lunch pack offered at reasonable rates"],
+        "context":["search_by_mess"]
+        },
+        {"tag": "clubs", 
+        "patterns":["LDCE clubs", "L.D. clubs", "Which are the clubs in LDCE?", "Which clubs are present in LDCE?","How many clubs does LDCE have?", "Which clubs does LDCE have?", "Please give me some information about clubs of LDCE"],
+        "responses": ["Some of the clubs in LDCE are as follows \nAdvanature \nCoders Club \nIEEE L.D.C.E. \nInnovator Club \nMind Palace \nNSS \nPrakalpa \nTeam Robocon \nLDCE Vox Populi \n...for more information, visit http://ldce.ac.in/clubs"],
+        "context": ["search_clubs"]
+        },
+        {"tag": "department",
+        "patterns": ["how many department?","Number of department in LDCE","list all department", "Departmnets", "LDCE departments", "Department list", "List of departments in L. D.","Department numbers","Department auditorium","Department"],
+        "responses": ["Here are list of 14 departments offered under BE:\nComputer department \nInformation Technology department \nElectrical department \nElectronics and communication department \nCivil department \nMechanical department \nChemical department \nPlastic department \nEnvironment department \nBio medical department \nAutomobile Department \nInstrumentation and control department \nTextile department\nRubber Department"],
+        "context": ["search_by_department"]
+        },
+        {"tag": "projects",
+        "patterns": ["What are the major projects in LDCE","Famous projects of LDCE","Projects in LDCE","Kaizen in LD","Final year projects","SSIP projects","winning Projects","Smart Projects","projects done by ld students","Projects from all the streams","Live projects","Winning projects"],
+        "responses": ["Here are some of projects:\nEarth Pressure Device \nBlood Pressure estimation from PPG signals using Neural Networks \nIOT based health care monitoring system \nSmart belt for detection of Heart Attack using IoT \nWireless robotic arm control using mobile application \nAI based traffic management system \nRain Water Harvesting In LD Campus \nBiofuel Generation from cactus \nMental stress level indicator using physiolocal parameter \nBlood Group Detection Device"],
+        "context": ["search_by_projects"]
+        },
+        {"tag": "patents",
+        "patterns": ["What are major patents in LDCE", "Patents in Ldce","Ldce based pattents", "patents", "patent","Published patents","Patents done by ld students"],
+
+        "responses": ["Here are some of the patents:\nMachine Intelligence Based Smart Camera Surveillance System\n\nIOT TyrePressure abd Temperature Monitoring and Alert System\n\nSmart Shovel\n\nRechargeable UV-C Disinfection Mask\n\nVirus detection of body\n\nAqua Cleaner\n\nOptimized Energetic Solar dryer\n\nBlood Group Detection Device\n\nHybrid Clay for capturing O2\n\nProduction of bio-diesel using Nano Particle\n\nLivable Floor Energy (LIFE)\n\nAir Evacuation system for Automobiles"],
+        "context": ["search_by_patents"]
+        },
+        {"tag": "placements",
+        "patterns": ["Which are top placement company in ldce?", "placement in ldce","placements in ldce","placement info","company in placements","how is the placement in Ldce","placement company in ldce","Recruitment in LD"],
+        "responses": ["Here are the list of our regular recruiters: \nAccenture \nTata Consultancy Services \nLarsen and Tubro \nReliance \nTata motors \nTorrent power \nAmul \nSamsung \nSuzuki \nByju's \nHSBC \nDaikins \nZeus \nIBM \nBosch \nTata Motors \nCybage"],
+        "context": ["search_by_placements"]
+        },
+        {"tag": "special_departments", 
+        "patterns":["Official clubs", "student departments", "What are some of the special departments for the students in the college?","What are some of the special departments?","Committees"],
+        "responses": ["LDCE has a large number of special departments for its students, which include, SSIP, Women Development Cell,Training and placement cell, Anti ragging committie, Aarambh E-cell and a lot more. \n\nFor more information visit the departments sections on the website." ],
+        "context": ["search_by_special_deparmtents"]
+        },
+        {"tag": "entrepreneurship", 
+        "patterns":["What facilities does the college has to support entrepreneurship?","How can I start-up?","Will the college support me if I have an idea for a start-up?","SSIP","Entrepreneurship cell","Ecell","IPR support","Support for innnovation","Whom can i contact if I have an Startup idea, for support"],
+        "responses": ["LDCE has various policies to encourage entrepreneurship and start-up culture in the college.\n\nWe have over 150 start-ups currently operating which have been funded by various student support policies \nFor more information you can reach out to the SSIP faculty or student coordinator."],
+        "context": ["search_by_entrepreneurship"]
+        },
+        {"tag": "women_development", 
+        "patterns":["Women development policy","Women development cell","Women empowerment cell","Female students assistance cell","Women cell","What is the women development policy?","What is the women development cell in the college","Is there any special cell for women development","Any club that focuses on women empowerment and related issues"],
+        "responses": ["LDCE has a dedicated Women Development cell in the college which is active in conducting various workshops, seminars and other events around the year \nEach department has student coordinators representing the cell.\n\nYou can reach out the Women Development cell office for more information."],
+        "context": ["search_by_women_development_cell"]
+        },
+        {"tag": "hostel", 
+        "patterns":["Hostels in LDCE","Hostel information","How many hostels are there in LDCE","On-campus accomodation for students","Hostel facilities for girls","About hostels","How can I get a room in the LD hostel","Are there any hostels in LD?","How are the hostels in the college","Is there any facility to live, on campus","Hostel timings","Hostel Fees","Hostel space"],
+        "responses": ["LDCE has hostel facilities for both girls and boys on campus.\nRooms are allocated on the basis of merit list for which there is a seperate application process.\n\nYou can go through the information on the 'hostels' tab on the website for further information."],
+        "context": ["search_by_hostel"]
+        },
+        {"tag": "event_calendar",
+        "patterns": ["What is the general Event Calendar of the college?","What is the general Event Calendar of LDCE?","general event calendar", "event calendar", "events", "What is the general Event Calendar of L.D. College of Engineering?", "What are the events in L.D.?", "Which events occur in LDCE?"],
+        "responses": ["Below mentioned are some of the events that are organized in L.D. College of Engineering:\nLAA Alumni Meet\nSahitya Sarita\nKaizen\nBlood Donation Camp\nRang Amaizi\nRepublic Day & Independence Day Celebration\n\nFor more details, visit:\nhttp://ldce.ac.in/photo-gallery"],
+        "context": ["general_event_calendar"]
+        },
+        {"tag": "accessibility",
+        "patterns": ["campus accessibility", "disabled friendly campus", "Is it a Disabled Friendly campus?", "Is the campus fully accessible?", "Is LDCE campus disabled friendly?"],
+        "responses": ["Yes, the campus of LDCE is disabled friendly as there are still many changes being incorporated to make it even better.\n\nTo know more, visit:\nhttp://ldce.ac.in/campus-map"],
+        "context": ["disabled_friendly_campus"]
+        },
+        {"tag": "committees",
+        "patterns": ["LDCE committees", "committees in LDCE", "Which are the committees present in LDCE?", "Which are the active committees in LDCE?", "Which committees does LDCE have?"],
+        "responses": ["Below mentioned are some of the committees of LDCE:\nAnti-Ragging Committee and Squad\nGirls Hostel Management Committee\nGrievance Cell Committee\nInternal Complaint Committee\nRTI Committee\nWomen Development Cell, etc.\n\nFor further details, visit:\nhttp://ldce.ac.in/campus-committee"],
+        "context": ["institute_committees"]
+        },
+        {"tag": "academics",
+        "patterns": ["academic structure", "academic structure of college", "academic structure of LDCE", "What is the academic structure of the college?", "Give me some information about the academic structure of LDCE.","Academics in LDCE"],
+        "responses": ["LDCE offers courses like BE, PDDC, PG, PhD which have different academic structures ranging from 2 to 4 years.\n\nFor detailed information on the same, visit:\nhttp://ldce.ac.in/admissions/ug-courses"],
+        "context": ["academic_structure"]
+        },
+        {"tag": "about",
+        "patterns": ["About our college?", "about ldce", "about clg", "General info of college","LDCE"],
+        "responses": ["\nL. D. College of Engineering endearingly known as L.D.C.E is Ahmedabads premier engineering college situated at citys heart surrounded by elite organization Like PRL, ATIRA, ISRO, IIM and CEPT. \nIt currently teaches 14 courses in BE, 4 courses in PDDC, 18 courses in PG and 9 courses in PhD \n \n It is affiliated with Gujarat Technological University \n \nIt is located in the University area in Ahmedabad and is accessible by BRTS as well as Bus service"],
+        "context": ["search_by_about"]
+        },
+        {"tag": "help",
+        "patterns": ["Who are you?", "What can I ask", "Help", "Help me", "How can  I ask question", "what can you do?", "How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+        "responses": ["Hello! \nI am an Automated Chatbot System designed to help you! \n \nI can answer your question regarding LDCE college \nIf you don't know what to ask consider following questions as an example \nHostel info in LD \nDeparment info in LD \nPlacement info in LD \nProjects in LD \n "],
+        "context": ["search_by_help"]
+        },
+        {"tag": "ec",
+        "patterns": ["EC department", "information on EC department", "About ec", "Faculties of EC", "Subjects in ec deparment", "Where is ec dept"],
+        "responses": ["\nThe vision of EC Department is as follows \nThe Electronics and communication Engineering department is committed to set a standard in engineering education with an active teaching-learning environment and research orientation for attaining academic excellence to produce graduates with greater employ-ability and as competent professionals to befit the diverse ever-changing technological arena. \n \nCurrently it offers BE, PDDC and PG. \nThe current HOD of EC Department is Dr. Prof. Mihir V. Shah \n \nThe department contains labs like \nMicrowave Lab \nDedicated Hall \nElectronics Lab \nRF and Analog Lab \nCommunication Lab \nAnd much more... "],
+        "context": ["search_by_ec"]
+                },
+        {"tag": "academics",
+        "patterns": ["academic structure", "academic structure of college", "academic structure of LDCE", "What is the academic structure of the college?", "Give me some information about the academic structure of LDCE."],
+        "responses": ["LDCE offers courses like BE, PDDC, PG, PhD which have different academic structures ranging from 2 to 4 years.\n\nFor detailed information on the same, visit:\nhttp://ldce.ac.in/admissions/ug-courses"],
+        "context": ["academic_structure"]
+        },
+        {"tag": "department_predictor",
+        "patterns": ["rank to department","department predictor","predict my department","which department can i get"],
+        "responses": [],
+        "context": ["department_predictor"]
+        },
+        {"tag": "hodec",
+        "patterns": ["What is the name of our hod","who is hod of Ec department","hod of ec", "EC HOD", "Who is the head of department in EC", "Head of department in EC", "Head of department of EC"],
+        "responses": [" Prof Dr. Mihir V Shah"],
+        "context": [""]
+        },
+        {"tag": "name",
+        "patterns": ["What is your name","what should i call you","name?"],
+        "responses": ["you can call me bot","just call me bot"],
+        "context": [""]
+        },
+        {"tag": "help",
+        "patterns": ["How can you help me ","Could you help me?", "give me a hand please", "Can you help?","What can you do for me?", "I need a support", "I need a help", "support me please"],
+        "responses": ["Yeah sure! Tell me how can assist you",  "Yes Sure, How can I support you","I can help you by providing information regarding LDCE"],
+        "context": [""]
+        },
+        {"tag": "cutoff",
+        "patterns": ["what is the cutoff at Ldce","cutoff in ldce","ldce cutoff","cutoffs?"],
+        "responses": ["The cutoff varies every year please check official website for more information!"],
+        "context": [""]
+        }
+   ]
+}
